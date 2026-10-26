@@ -75,7 +75,7 @@ while True:
  operations()
 
  #This ask which operation you want to do
- question = input("Which option would you like?: ").lower()
+ question = input("Which option would you like?: ").strip().lower()
 
  #This shows what you choosed in "question"
  if question == "1":
